@@ -1,4 +1,4 @@
-# i2c2
+# Power Utilities
 
 ```package
 pins=github:bsiever/microbit-pxt-powerUtils
