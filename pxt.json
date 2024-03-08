@@ -1,0 +1,39 @@
+{
+    "name": "microbit-pxt-powerUtils",
+    "version": "0.0.1",
+    "description": "Power Source utilities for the micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "powerUtils.ts",
+        "powerUtils.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "authors": [
+        "Bill Siever <bsiever@gmail.com>"
+    ],
+    "disablesVariants": [
+        "mbdal"
+    ],
+    "card": {
+        "name": "Power Source",
+        "imageUrl": "file:../icon.png",
+        "feedbackUrl": "http://siever.info"
+    }
+}
