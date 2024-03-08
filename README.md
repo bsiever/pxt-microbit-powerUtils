@@ -8,19 +8,25 @@ This extension can be used to detect the source of power (battery vs. USB)
 
 **Micro:bit v2 only!!!**
 
-# Setting the pins
+# USB Power Supply
 
 ```sig
-pins.setI2CPins(sda : DigitalPin,  scl : DigitalPin) : void
+powerUtils.usbPower() : boolean
 ```
 
-Set the Data and Clock pins.
+True if USB power is available.  False otherwise (only battery power).
+
+# Power Consumption
+
+```sig
+powerUtils.powerConsumption() : number
+```
+
+Estimated instantaneous power consumption
 
 # Acknowledgements 
 
-Development of this extension was sponsored by [MakeKit](https://www.makekit.no/).
-
-Icon based on [Font Awesome icon 0xF074](https://www.iconfinder.com/icons/213043/f074_icon) SVG.
+Icon based on [Font Awesome icon 0xF1E6](https://fontawesome.com/v4/icon/plug) SVG.
 
 <script src="https://makecode.com/gh-pages-embed.js"></script>
 <script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
