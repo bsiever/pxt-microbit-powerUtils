@@ -1,6 +1,6 @@
 
 
-//% color=#0000FF 
+//% color=#000000 
 //% icon="\uf1e6"
 //% block="Power Utilities"
 //% group="micro:bit (V2)"
